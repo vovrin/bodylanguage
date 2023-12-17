@@ -1,0 +1,22 @@
+@mixin tests(){
+    display: grid;
+    row-gap: 10px;
+    column-gap: 10px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows:  5vh 1fr;
+    border-radius: 10px;
+    border: 1px solid black;
+    padding: 10px;
+    background-color: white;
+}
+@mixin end($color: red){
+    width: 100%;
+    height: 40px;
+    border-radius: 20px;
+    background-color: $color;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    
+}
