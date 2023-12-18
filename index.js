@@ -218,6 +218,7 @@ $("#nerv").click(function(){
     $("#nerv").css({"background-color":"green"})
 })
 $("#shy, #conf, #sad").click(function(){
+   window.navigator.vibrate(200);
     win--;
     $("#sad, #shy, #conf").css({"background-color":"red", "animation":"fals .5s"})
     $("#nerv").css({"background-color":"green"})
