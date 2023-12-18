@@ -223,6 +223,7 @@ $("#shy, #conf, #sad").click(function(){
     $("#nerv").css({"background-color":"green"})
 })
 $("#shy1, #conf1, #nerv1").click(function(){
+   window.navigator.vibrate(200);
     win--;
     if (win == 2){
         $(".win").css({"display":"flex"})
